@@ -1,0 +1,10 @@
+// 06-tipado-en-funciones.ts
+
+// Definir una función 'greet' que acepta un nombre y una edad
+function greet(name: string, age: number): string {
+    return `Hola, mi nombre es ${name} y tengo ${age} años.`;
+}
+
+// Ejemplo de uso
+const greeting = greet("Jesús", 25);
+console.log(greeting);

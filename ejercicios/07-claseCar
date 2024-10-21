@@ -1,0 +1,30 @@
+
+
+// // Definir la clase 'Car'
+// export class Car {
+//     // Propiedad privada de la clase
+//     private make: string;
+
+//     // Constructor de la clase que inicializa la propiedad make
+//     constructor(make: string) {
+//         this.make = make;
+//     }
+
+//     // Método para imprimir un mensaje al conducir
+//     drive(): void {
+//         console.log(`Driving a ${this.make}`);
+//     }
+
+//     // Método para obtener el valor de make
+//     getMake(): string {
+//         return this.make;
+//     }
+// }
+
+// // Crear una instancia de Car con una marca
+// const myCar = new Car("Toyota");
+// // Llamar al método drive
+// myCar.drive();  // Salida: Driving a Toyota
+
+// // Llamar al método getMake y mostrar el resultado
+// console.log(`Marca del coche: ${myCar.getMake()}`);
